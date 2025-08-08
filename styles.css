@@ -10,7 +10,7 @@ header {
     border-bottom: solid 2px rgb(223, 103, 103);
     padding: 20px;
     font-size: 32px;
-    color: rgb(123, 21, 21);
+    color: rgb(203, 21, 21);
 }
 
 .chamada {
@@ -43,8 +43,12 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
+    scrollbar-color: rgb(230,10,10) rgb(10,10,10);
 }
+.categoria-videos::-webkit-scrollbar{
+    height:25px;
 
+}
 .categoria-videos img {
     opacity: 0.5;
     height: 200px;
